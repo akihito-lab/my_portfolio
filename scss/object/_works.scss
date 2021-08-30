@@ -44,7 +44,6 @@
   width: 100%;
   height: 100%;
   visibility: hidden; /* 文字を表示しない */
-
   font-size: 1vw;
   position: absolute;
   top: 25px;
@@ -52,6 +51,9 @@
   text-align: center;
   -webkit-transition: all 0.4s step-end;
   transition: all 0.4s step-end;
+  @include sp {
+    font-size: 3vw;
+  }
 }
 .portfolio:hover .caption {
   visibility: visible; /* 文字を表示する */
