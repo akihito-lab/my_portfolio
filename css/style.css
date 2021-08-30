@@ -331,7 +331,7 @@ img {
 .skill_section {
   margin: 0 auto;
   padding: 60px 0 60px 0;
-  background-image: url(../../image/keyboard-254582_1280.jpg);
+  background-image: url("https://github.com/akihito-lab/my_portfolio/blob/main/image/keyboard-254582_1280.jpg?raw=true");
   background-size: cover;
   background-position: center;
 }
@@ -383,7 +383,7 @@ img {
 .service_section {
   margin: 0 auto;
   padding: 60px 0 60px 0;
-  background-image: url(../../image/toppage14.jpg);
+  background-image: url("https://github.com/akihito-lab/my_portfolio/blob/main/image/toppage14.jpg?raw=true");
   background-size: cover;
   background-position: center;
 }
@@ -469,7 +469,7 @@ img {
 .works_section {
   margin: 0 auto;
   padding: 60px 0 60px 0;
-  background-image: url(../../image/volcanic-rock-3062036_1280.jpg);
+  background-image: url("https://github.com/akihito-lab/my_portfolio/blob/main/image/volcanic-rock-3062036_1280.jpg?raw=true");
   background-position: center;
   background-size: cover;
 }
@@ -588,7 +588,7 @@ img {
 
 /*フッター*/
 .footer {
-  background-image: url("../../image/connection-4885313_1280.jpg");
+  background-image: url("https://github.com/akihito-lab/my_portfolio/blob/main/image/connection-4885313_1280.jpg?raw=true");
   background-size: cover;
   background-position: center;
 }
