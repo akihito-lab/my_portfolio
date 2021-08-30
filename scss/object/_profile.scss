@@ -1,0 +1,27 @@
+.profile_section {
+  padding: 60px 0 60px 0;
+  background-image: url(../../image/northern-lights-984120_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.profile_image {
+  width: 10%;
+  height: 0%;
+  margin: 15px auto 0;
+  img {
+    border-radius: 30%;
+  }
+}
+.introduction_text {
+  margin: 15px auto 40px;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  .desc {
+    color: white;
+    font-size: 2vw;
+  }
+}

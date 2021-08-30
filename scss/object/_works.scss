@@ -1,0 +1,87 @@
+/* ポートフォリオセクション */
+
+/*ポートフォリオ配置*/
+.works_section {
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+  background-image: url(../../image/volcanic-rock-3062036_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.works_con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 15px auto 40px;
+  @include sp {
+    display: block;
+  }
+}
+.portfolio_link {
+  width: 30%;
+  display: block;
+  margin-right: 10px;
+  @include sp {
+    width: 80%;
+    margin: 0 auto;
+    &:nth-of-type(n + 2) {
+      margin-top: 15px;
+    }
+  }
+  &:nth-of-type(n + 4) {
+    margin-top: 15px;
+    @include sp {
+      margin: 15px auto 0;
+    }
+  }
+}
+.portfolio {
+  overflow: hidden;
+  position: relative;
+}
+.portfolio .caption {
+  width: 100%;
+  height: 100%;
+  visibility: hidden; /* 文字を表示しない */
+
+  font-size: 1vw;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  text-align: center;
+  -webkit-transition: all 0.4s step-end;
+  transition: all 0.4s step-end;
+}
+.portfolio:hover .caption {
+  visibility: visible; /* 文字を表示する */
+}
+.portfolio .caption p {
+  color: #fff;
+  opacity: 0; /* ホバーが解除された時すぐ消えるように、文字を表示しない */
+}
+.portfolio:hover .caption p {
+  opacity: 1; /* 文字を表示する */
+}
+.portfolio .mask1,
+.portfolio .mask2 {
+  width: 50%; /* 幅は半部のサイズ */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.portfolio .mask1 {
+  left: -50%; /* 枠の左に置いて表示させない */
+}
+.portfolio:hover .mask1 {
+  left: 0px; /* 左にずらして表示する */
+}
+.portfolio .mask2 {
+  right: -50%; /* 枠の右に置いて表示させない */
+}
+.portfolio:hover .mask2 {
+  right: 0px; /* 右にずらして表示する */
+}

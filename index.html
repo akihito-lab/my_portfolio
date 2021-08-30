@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <!-- reset.css -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- フォントファミリー -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Dancing+Script:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <!-- フォントアイコン -->
+  <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+  <!-- animate.cssの読み込み -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+  <!-- main.css -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<!--ヘッダー-->
+<header>
+  <!--メニューバー-->
+  <div class="button_container" id="toggle">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+      <ul>
+        <li><a href="#" class="menu_aboutme">About Me</a></li>
+        <li><a href="#" class="menu_service">Service</a></li>
+        <li><a href="#" class="menu_works">Works</a></li>
+        <li><a href="#" class="menu_contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!--タイトル-->
+<div class="fv-wrapper" id="particles-js">
+
+  <div class="fv-text">
+    <h1 class="myname">AKIHITO FUKUDA's Portfolio</h1>
+    <p class="worker_type">- Web Engineer -</p>
+  </div>
+</div>
+
+<div class="main_content">
+  <!-- 自己紹介 -->
+  <section class="profile_section">
+
+    <h2 class="cmn_title_wrapper">
+      <span class="cmn_title profile_title wow animate__animated animate__fadeInLeft" data-wow-duration="1s"><i class="fas fa-user"></i>About Me</span>
+    </h2>
+
+    <div class="profile_image flexbox1 wow animate__animated animate__fadeIn" data-wow-duration="4s" >
+      <img src="./image/IMG_9807.jpg" alt="myprofile"/>
+    </div>
+
+    <h3 class="sub_title wow animate__animated animate__fadeInUp" data-wow-duration="2s"><i class="fas fa-apple-alt"></i>Introduction</h3>
+    <div class="introduction_text wow animate__animated animate__fadeInUp" data-wow-duration="2s">
+      <p class="desc">
+      初めまして。Webエンジニアの<span style="font-weight: bold">福田亮史（フクダアキヒト）</span>と申します。<br><br>
+      現在フロントエンドを中心に、Webサイト制作を行なっております。<br><br>
+      「<span style="font-weight: bold; color:red;">質</span>」と「<span style="font-weight:bold; color:red;">スピード</span>」を重視することで、期待以上のものを提供させていただきます。<br><br>
+      また、クライアント様に寄り添った<span style="font-weight:bold;color:red;">丁寧なコミュニケーション</span>を常に心がけ、
+      <span style="font-weight:bold;color:red;">最後まで責任を持って</span>、仕事に取り組ませていただきます。
+      </p>
+    </div>
+
+    <h3 class="sub_title wow animate__animated animate__fadeInUp" data-wow-duration="2s"><i class="fas fa-graduation-cap"></i>Educartions</h3>
+    <div class="introduction_text wow animate__animated animate__fadeInUp" data-wow-duration="2s">
+      <p class="desc">
+        1998年：大阪府出身<br><br>
+        2016年：門真なみはや高校卒業<br><br>
+        現在：関西大学に在学中<br><br>
+        趣味：釣り/ピアノ/カラオケ/バトミントン/ボーリング
+      </p>
+    </div>
+  </section>
+
+    <!-- スキル紹介 -->
+  <section class="skill_section">
+
+    <h2 class="cmn_title_wrapper">
+      <span class="cmn_title skill_title wow animate__animated animate__fadeInLeft" data-wow-duration="1s"><i class="fas fa-laptop-code"></i>Skill</span>
+    </h2>
+
+  <div class="skill_text wow animate__animated animate__fadeInUp" data-wow-duration="2s">
+      <div class="skill">
+        <div class="skill_img"><img src="./image/HTML.jpg" alt="frontend languages" /></div>
+        <p class="skill_level">Level: ★★★★★</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill_img"><img src="./image/CSS.jpg" alt="frontend languages" /></div>
+        <p class="skill_level">Level: ★★★★★</p>
+      </div>
+
+      <div class="skill">
+        <div class="skill_img"><img src="./image/Javascript.jpg" alt="frontend languages" /></div>
+        <p class="skill_level">Level: ★★★★★<br>
+        </p>
+      </div>
+
+      <div class="skill">
+        <div class="skill_img"><img src="./image/Wordpress.jpg" alt="Wordpress" /></div>
+        <p class="skill_level">Level: ★★★★★</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- サービス紹介 -->
+  <section class="service_section">
+    <h2 class="cmn_title_wrapper">
+      <span class="cmn_title service_title wow animate__animated animate__fadeInLeft" data-wow-duration="1s"><i class="fab fa-battle-net"></i>Service</span>
+    </h2>
+    <div class="service_text">
+      <div class="service_item wow animate__animated animate__fadeInUp" data-wow-duration="2s">
+        <div class="service_image">
+          <img src="./image/desktop.jpg" alt="coding" />
+        </div>
+        <div class="sub_title">
+          <p>コーディング</p>
+        </div>
+        <div class="service_content">
+          LPやコーポレートサイトなど目的に応じた適切なコーディングを行います。また、軽微なコードの修正などにも対応しています。<br><br>
+          【料金目安】<br>
+          コード修正（一か所）<br> ¥1,000~<br>
+          LP制作（トップ） <br>¥20,000~/1p<br>
+          LP制作（下層） <br>¥5,000~/1p<br>
+
+        </div>
+      </div>
+
+      <div class="service_item wow animate__animated animate__fadeInUp" data-wow-duration="3s">
+        <div class="service_image">
+          <img class="responsive_img" src="./image/smartphone-1184883_640.png" alt="coding" />
+        </div>
+        <div class="sub_title">
+          <p>レスポンシブ対応</p>
+        </div>
+
+        <div class="service_content">
+          タブレットやスマートフォンの画面サイズごとにデザインを変えて、どのデバイスからでも見やすいwebサイトを制作致します<br><br>
+          【料金目安】<br>
+          ¥10,000~/1p<br><br><br><br><br><br>
+        </div>
+      </div>
+
+      <div class="service_item wow animate__animated animate__fadeInUp" data-wow-duration="4s">
+        <div class="service_image">
+          <img src="./image/wordpress2.jpg" alt="wordpress" />
+        </div>
+        <div class="sub_title ">
+          <p>Wordpress</p>
+        </div>
+        <div class="service_content">
+          コーポレートサイトや個人ブログ、およびウェブマガジンなどのWordPressサイトの構築や既存サイトのWordPress移行、コードの修正に対応しております。
+          <br><br>
+          【料金目安】<br>
+          Wordpress移行<br> ¥100,000~<br>
+          Wordpress制作<br> ¥200,000~<br><br><br>
+        </div>
+      </div>
+    </div>
+
+    <p class="service_consultant">※上記はあくまで目安であるため正式なお見積もりは、別途ご相談させていただきます。まずはお問い合わせくださいませ。</p>
+  </section>
+
+  <!--Webサイトポートフォリオ-->
+  <section class="works_section">
+    <h2 class="cmn_title_wrapper">
+      <span class="cmn_title works_title wow animate__animated animate__fadeInLeft" data-wow-duration="1s"><i class="fas fa-file-alt"></i>Works</span>
+    </h2>
+
+    
+      <div class="works_con">
+        <a href="https://movie-collections-ver1.herokuapp.com/" class="portfolio_link wow animate__animated animate__fadeInUp" data-wow-duration="2s">
+          <div class="portfolio">
+            <img src="./image/my_portfolio.png" alt="portfolio" />
+            <div class="mask1"></div>
+            <div class="mask2"></div>
+            <div class="caption">
+              <p class="desc">【Category】オリジナル作品<br><br>
+                【Title】My portfolio<br><br>
+                【Skill】HTML / CSS / JQuery <br><br>
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://mizutaniyuji.github.io/my_portfolio" class="portfolio_link wow animate__animated animate__fadeInUp" data-wow-duration="3s">
+          <div class="portfolio">
+          <img src="./image/my_portfolio1.png" alt="portfolio" />
+          <div class="mask1"></div>
+          <div class="mask2"></div>
+          <div class="caption">
+            <p class="desc">【Category】デザインカンプからのコーディング<br><br>
+              【Title】架空の温泉旅館<br><br>
+              【Skill】HTML / CSS / JQuery / Wordpress<br><br>
+            </p>
+          </div>
+        </div>
+        </a>
+
+        <a href="https://movie-collections-ver1.herokuapp.com/" class="portfolio_link wow animate__animated animate__fadeInUp" data-wow-duration="4s">
+        <div class="portfolio">
+          <img src="./image/my_portfolio2.png" alt="portfolio" />
+          <div class="mask1"></div>
+          <div class="mask2"></div>
+          <div class="caption">
+            <p class="desc">【Category】デザインカンプからのコーディング<br><br>
+              【Title】Design for smile<br><br>
+              【Skill】HTML / CSS / JQuery <br><br>
+            </p>
+          </div>
+        </div>
+        </a>
+
+        <a href="https://tabi-channel.herokuapp.com/" class="portfolio_link wow animate__animated animate__fadeInUp" data-wow-duration="5s">
+        <div class="portfolio">
+          <img src="./image/my_portfolio3.png" alt="portfolio" />
+          <div class="mask1"></div>
+          <div class="mask2"></div>
+          <div class="caption">
+            <p class="desc">【Category】デザインカンプからのコーディング<br><br>
+              【Title】 Design for smile<br><br>
+              【Skill】 HTML / CSS / JQuery<br><br>
+            </p>
+          </div>
+        </div>
+        </a>
+      </div>
+  </section>
+
+  <footer class="footer">
+    <div class="bg_mask">
+      <h2 class="cmn_title_wrapper">
+        <span class="cmn_title contact_title wow animate__animated animate__fadeInLeft" data-wow-duration="1s"><i class="fas fa-envelope-open"></i>Contact</span>
+      </h2>
+      <div class="contact_text">ご依頼（ご相談）はメールよりお願い致します</div>
+      <!--SNSアイコン-->
+      <div>
+        <ul class="follow_me_list">
+          <li class="follow_me_item"><a href="mailto:fukudaakihito5@gmail.com?body=ご依頼/ご相談内容" class="gmail follow_me_link"></a></li>
+        </ul>
+      </div>
+      <!--コピーライト-->
+      <div id="copyright">
+        Copyright &copy; 2021 Akihito FUKUDA's Protfolio All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+</div>
+<!-- jqueryの読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="vendor/jquery.waypoints.min.js"></script>
+<script src="vendor/jquery.magnific-popup.min.js"></script>
+<script src="vendor/mobile-detect.min.js"></script>
+<script src="jquery.waypoints.min.js"></script>
+<!-- particles.min.jsファイルの読み込み-->
+<script src="./js/particles.min.js"></script>
+<!-- wow.min.jsの読み込み -->
+<script src="./js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<!-- メインファイル -->
+<script src="./js/main.js"></script>
+
+</body>
+
+</html>

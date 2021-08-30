@@ -1,0 +1,40 @@
+.skill_section {
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+  background-image: url(../../image/keyboard-254582_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.skill_text {
+  margin: 15px auto 40px;
+  width: 80vw;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  .skill {
+    width: 20%;
+    display: inline-block;
+    height: auto;
+    transition-duration: 0.5s;
+    border: none;
+    margin: 0 10px 0 10px;
+    &:nth-child(n + 4) {
+      margin-top: 10px;
+    }
+  }
+  .skill_img {
+    cursor: pointer;
+  }
+  .skill img:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-15px);
+    transition-duration: 0.5s;
+  }
+  .skill_level {
+    margin-top: 10px;
+    color: cl(white);
+    font-size: 2vw;
+  }
+}

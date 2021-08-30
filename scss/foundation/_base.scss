@@ -1,0 +1,53 @@
+// COLORS
+// @inlcude cl(black);
+//--------------------------------------------------
+
+$colors: (
+  white: #fff,
+  black: #000,
+  text: #333333,
+  grey: #6e6e6e,
+  lightgrey: #f2f2f2,
+  red: #ff0000,
+  primary: #4d0000,
+  gold: #b8860bea,
+  baige: #ffffdd,
+  blue: #030f55,
+  orange: #f89174,
+);
+
+@function cl($key) {
+  @return map-get($colors, $key);
+}
+
+body {
+  font-family: "PT Serif", "Cinzel", serif, "Dancing Script";
+}
+h1,
+h2,
+h3,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  line-height: 0;
+}
+
+// RESPONSIVE
+// @include sp
+//--------------------------------------------------
+
+@mixin sp {
+  @media print, screen and (max-width: 768px) {
+    @content;
+  }
+}

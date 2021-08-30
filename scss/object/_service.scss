@@ -1,0 +1,59 @@
+.service_section {
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+  background-image: url(../../image/toppage14.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.service_text {
+  margin-top: 15px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  @include sp {
+    display: block;
+  }
+}
+.service_item {
+  width: 30%;
+  margin-right: 10px;
+  @include sp {
+    width: 80%;
+    margin: 0 auto;
+  }
+  &:last-of-type {
+    margin-right: 0;
+    @include sp {
+      margin: 0 auto;
+    }
+  }
+  .service_image img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .responsive_img {
+    background-color: cl(orange);
+  }
+  .sub_title {
+    margin: 15px 0 30px;
+    @include sp {
+      margin-bottom: 15px;
+    }
+  }
+  .service_content {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    font-size: 2vw;
+    margin: 0 auto 40px auto;
+    padding: 30px 10px 30px 10px;
+    border-radius: 15px;
+  }
+}
+.service_consultant {
+  color: cl(white);
+  font-size: 2vw;
+  width: 80%;
+  margin: 0 auto;
+}
