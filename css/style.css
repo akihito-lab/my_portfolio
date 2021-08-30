@@ -537,6 +537,11 @@ img {
   -webkit-transition: all 0.4s step-end;
   transition: all 0.4s step-end;
 }
+@media print, screen and (max-width: 768px) {
+  .portfolio .caption {
+  font-size: 3vw;
+ }
+}
 
 .portfolio:hover .caption {
   visibility: visible;
